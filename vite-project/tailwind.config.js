@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import daisyui from 'daisyui';
 
 export default {
   darkMode: ["class"],
@@ -21,8 +22,12 @@ export default {
         roboto : ["Roboto", "sans-serif"],
         kanit : ["Kanit", "sans-serif"],
       },
+      
     },
   },
 
-  plugins: [require("daisyui")],
+  plugins: [
+    daisyui,
+
+  ],
 };
